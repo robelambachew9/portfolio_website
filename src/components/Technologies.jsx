@@ -1,8 +1,9 @@
-import { DiRedis } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine } from 'react-icons/ri'
 import { SiMongodb } from 'react-icons/si'
-import { TbBrandNextjs } from 'react-icons/tb'
+import { TbBrandDjango } from 'react-icons/tb'
+import { FaPython } from 'react-icons/fa'
+import { RiTailwindCssLine } from 'react-icons/ri'
 import { BiLogoPostgresql, BiRepeat } from 'react-icons/bi'
 import { animate, motion } from 'framer-motion'
 
@@ -39,7 +40,7 @@ const Technologies = () => {
                 <motion.div
                     initial="initial"
                     animate="animate"
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                 >
                     <RiReactjsLine className='text-7xl text-cyan-400' />
                 </motion.div>
@@ -49,23 +50,7 @@ const Technologies = () => {
                     variants={iconVariants(3)}
                     className='p-4'
                 >
-                    <TbBrandNextjs className='text-7xl' />
-                </motion.div>
-                <motion.div
-                    initial="initial"
-                    animate="animate"
-                    variants={iconVariants(5)}
-                    className='p-4'
-                >
-                    <SiMongodb className='text-7xl text-cyan-900' />
-                </motion.div>
-                <motion.div
-                    initial="initial"
-                    animate="animate"
-                    variants={iconVariants(2)}
-                    className='p-4'
-                >
-                    <DiRedis className='text-7xl text-red-700' />
+                    <FaPython className='text-7xl' />
                 </motion.div>
                 <motion.div
                     initial="initial"
@@ -73,15 +58,39 @@ const Technologies = () => {
                     variants={iconVariants(4)}
                     className='p-4'
                 >
+                    <SiMongodb className='text-7xl text-cyan-900' />
+                </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(3)}
+                    className='p-4'
+                >
+                    <TbBrandDjango className='text-7xl text-red-700' />
+                </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(2)}
+                    className='p-4'
+                >
                     <FaNodeJs className='text-7xl text-green-500' />
                 </motion.div>
                 <motion.div
                     initial="initial"
                     animate="animate"
-                    variants={iconVariants(5)}
+                    variants={iconVariants(3)}
                     className='p-4'
                 >
                     <BiLogoPostgresql className='text-7xl text-sky-600' />
+                </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(4)}
+                    className='p-4'
+                >
+                    <RiTailwindCssLine className='text-7xl text-cyan-900' />
                 </motion.div>
             </motion.div>
         </div>

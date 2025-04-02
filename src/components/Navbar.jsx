@@ -10,14 +10,14 @@ const Navbar = () => {
         </a>
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a href='/'
+        <a href='/https://www.linkedin.com/in/robel-shitahun-93038a1b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
           target='_blank'
           rel='noopener noreferer'
           aria-label='LinkedIn'
         >
           <FaLinkedin />
         </a>
-        <a href='/'
+        <a href='/https://github.com/robelambachew9'
           target='_blank'
           rel='noopener noreferer'
           aria-label='GitHub'
@@ -31,7 +31,7 @@ const Navbar = () => {
         >
           <FaInstagram />
         </a>
-        <a href='/'
+        <a href='/https://x.com/Robellion23?t=69Y7oZeMl6AHy22v4U-YPA&s=09'
           target='_blank'
           rel='noopener noreferer'
           aria-label='Twitter'
